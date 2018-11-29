@@ -60,6 +60,10 @@
     text-align: center;
 }
 
+.btn:hover {
+    background-color: grey;
+}
+
 main {
     padding-top: 50px;
 }
