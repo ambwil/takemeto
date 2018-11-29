@@ -131,6 +131,12 @@ main {
   color:#343633;
 }
 
+#calendar .nextmonth,#calendar .nextmonth,#calendar .nextmonth ~ *{
+  background:#fff;
+  color:#343633;
+}
+
+
 #calendar .current{
   background:#FF9C8E;
   font-weight:700;
