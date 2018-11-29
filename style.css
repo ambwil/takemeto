@@ -43,6 +43,8 @@
 
 #calrow {
     padding-top: 60px;
+    align-content: center;
+
 }
 
 #title {
@@ -52,10 +54,44 @@
     font-size: 170%;
 }
 
-#book {
-    padding-top: 60px;
+#saved {
     text-align: center;
-    padding-bottom: 20px;
+    margin: 0 auto;
+    padding-top: 200px;
+    font-size: 250%;
+    
+}
+
+#booked {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 200px;
+    font-size: 250%;
+
+}
+
+#book {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+    align-content: center;
+    border: NONE;
+    color: #FF9C8E;
+}
+
+#return {
+    text-align: center;
+    background-color: #343633;
+    color: white;
+    align-content: center;
+    margin-top: 50px;
+    border: none;
+}
+
+#return:hover {
+    background-color: #ddd;
+    border:none;
 }
 
 .btn {
@@ -92,8 +128,7 @@ main {
 #get {
     padding-top: 10px;
     padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 40px;
 }
 
 /* CALENDAR */
@@ -224,14 +259,15 @@ main {
 
 #toprow {
     padding-left: 20px;
+    margin-bottom: 100px;
 }
 
 .dropdown-menu-right{
     text-align: right;
 }
 
-.dropdown {
-    margin-bottom: 50px;
+#air, #cla {
+    margin-bottom: 15px;
 }
 
 
@@ -260,8 +296,10 @@ input {
 #card1, #card2, #card3 {
     text-transform: lowercase;
     color: white;
-    height: 100px;
+    height: 80px;
     background-color: #FF9C8E;
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 #card1:hover {
@@ -275,4 +313,42 @@ input {
 #card3:hover {
     background-color: grey;
 }
+
+#lastrow {
+    margin-left: 20px;
+}
+
+#customRange1 {
+    margin-bottom: 20px;
+}
+
+#customRange2{
+    margin-bottom: 40px;
+}
+
+/* Other */
+
+#save {
+    color: white;
+    background-color: #343633;
+    margin-left: 10px;
+    margin-top: 50px;
+    align-content: right;
+    justify-content: right;
+    border: none;
+}
+
+#save:hover {
+    background-color: #ddd;
+}
+
+#savehead {
+    text-align: center;
+}
+
+#confirm {
+    text-align: center;
+    margin-top: 20px;
+}
+
 
