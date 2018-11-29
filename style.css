@@ -1,0 +1,67 @@
+* {
+    font-family: Futura;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #343633;
+    font-size: 170%;
+}
+
+.nav-item:hover{
+    color: #FF9C8E;
+}
+
+.nav {
+    background-color: white;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(52,54,51,1);
+    border-color: #343633;
+}
+
+.navbar {
+    padding-top: 20px;
+}
+
+.navbar-nav {
+   text-align: right;
+}
+
+.salmon {
+    color: #FF9C8E;
+}
+
+.jet {
+    color: #343633;
+}
+
+#title {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 70px;
+    font-size: 170%;
+}
+
+main {
+    padding-top: 100px;
+}
+
+#cta {
+    text-align: right;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0 auto;
+    margin-right: -200px;
+}
+
+#input {
+    padding-left: 0;
+    margin: 0 auto;
+}
+
+#get {
+    padding-top: 50px;
+    padding-left: 50px;
+}
