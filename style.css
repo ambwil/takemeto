@@ -2,6 +2,8 @@
     font-family: Futura;
 }
 
+/* Navigation */
+
 .navbar-brand {
     font-weight: bold;
     color: #343633;
@@ -28,6 +30,8 @@
 .navbar-nav {
    text-align: right;
 }
+
+/* Home */
 
 .salmon {
     color: #FF9C8E;
@@ -174,10 +178,6 @@ main {
    
 }
 
-.float {
-    z-index: 2;
-}
-
 .text {
     color: #343633;
 }
@@ -195,9 +195,84 @@ main {
 #click {
     background-color: #FF9C8E;
     text-align: center;
+    border: none;
 }  
 
 #click:hover {
+    background-color: grey;
+}
+
+/* Preferences */
+
+#pref {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.dropdown-toggle {
+    width: 300px;
+    text-align: right;
+    background-color: #FF9C8E;
+    color: white;
+    border: none;
+}
+
+.dropdown-toggle:hover {
+    background-color: grey;
+    border: none;
+}
+
+#toprow {
+    padding-left: 20px;
+}
+
+.dropdown-menu-right{
+    text-align: right;
+}
+
+.dropdown {
+    margin-bottom: 50px;
+}
+
+
+.dropdown-menu a:hover {
+    background-color: #FF9C8E;
+}
+
+input {
+   color: #FF9C8E;
+}
+
+#secondrow {
+    padding-left: 20px;
+}
+
+.input-group-text {
+    width: 150px;
+    background-color: #FF9C8E;
+    color: white;
+}
+
+.input-group {
+    margin-bottom: 8px;
+}
+
+#card1, #card2, #card3 {
+    text-transform: lowercase;
+    color: white;
+    height: 100px;
+    background-color: #FF9C8E;
+}
+
+#card1:hover {
+    background-color: grey;
+}
+
+#card2:hover {
+    background-color: grey;
+}
+
+#card3:hover {
     background-color: grey;
 }
 
