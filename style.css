@@ -37,6 +37,10 @@
     color: #343633;
 }
 
+#calrow {
+    padding-top: 70px;
+}
+
 #title {
     text-align: center;
     margin: 0 auto;
@@ -64,4 +68,75 @@ main {
 #get {
     padding-top: 50px;
     padding-left: 50px;
+    padding-right: 50px;
 }
+
+/* CALENDAR */
+
+*{margin:0;padding:0;}
+
+
+#calendar{
+  width:250px;
+  margin:0 auto;
+  margin-top:2%;
+  margin-bottom:2%;
+  border-radius:5px;
+  font-family: Futura;
+  text-align:center;
+  color:#343633;
+
+}
+
+#calendar h1{
+  background:#FF9C8E;
+  border-radius:5px 5px 0 0;
+  padding:20px;
+  font-size:140%;
+  font-weight:300;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  color:#343633;
+  cursor:default;
+}
+
+#calendar table{
+  border-top:1px solid #ddd;
+  border-left:1px solid #ddd;
+  border-spacing:0;
+  border-radius:0 0 5px 5px;
+}
+
+#calendar td{
+  width:38px;
+  height:38px;
+  background:#eee;
+  border-right:1px solid #ddd;
+  border-bottom:1px solid #ddd;
+  padding:6px;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+#calendar td:hover:not(.current){
+  background:#ddd;
+}
+
+#calendar .lastmonth,#calendar .nextmonth,#calendar .nextmonth ~ *{
+  background:#fff;
+  color:#343633;
+}
+
+#calendar .current{
+  background:#FF9C8E;
+  font-weight:700;
+  color:#343633;
+}
+
+#calendar .hastask{
+  font-weight:700;
+}
+
+#calendar tr:last-of-type td:first-of-type{border-radius:0 0 0 5px;}
+#calendar tr:last-of-type td:last-of-type{border-radius:0 0 5px 0;}
