@@ -60,13 +60,17 @@ main {
     margin-right: -200px;
 }
 
+#take {
+    text-align: center;
+}
 #input {
-    padding-left: 0;
+    padding-left: 15px;
     margin: 0 auto;
 }
 
 #get {
     padding-top: 50px;
+    padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -85,7 +89,6 @@ main {
   font-family: Futura;
   text-align:center;
   color:#343633;
-
 }
 
 #calendar h1{
