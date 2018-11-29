@@ -22,7 +22,7 @@
 }
 
 .navbar {
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .navbar-nav {
@@ -38,18 +38,30 @@
 }
 
 #calrow {
-    padding-top: 70px;
+    padding-top: 60px;
 }
 
 #title {
     text-align: center;
     margin: 0 auto;
-    padding-top: 70px;
+    padding-top: 40px;
     font-size: 170%;
 }
 
+#book {
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.btn {
+    text-transform: uppercase;
+    background-color: #ddd;
+    text-align: center;
+}
+
 main {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 #cta {
@@ -63,13 +75,14 @@ main {
 #take {
     text-align: center;
 }
+
 #input {
     padding-left: 15px;
     margin: 0 auto;
 }
 
 #get {
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
