@@ -26,13 +26,42 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
-                <li class="nav-item, hovercolor"><a class="nav-link" href="about.html" style="color:#343633;">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="trips.html" style="color:#343633;">Trips</a></li>
+                <li class="nav-item"><a class="nav-link" href="trips.html" style="color:#343633;" id="activenav">Trips</a></li>
                 <li class="nav-item"><a class="nav-link" href="preferences.html" style="color:#343633;">Preferences</a></li>
                 <li class="nav-item"><a class="nav-link" href="signin.html" style="color:#343633;">Sign in</a></li>
             </ul>
         </div>
         </nav>
+        <header>
+            <h2 class="jet" id="trip">Your Trips</h2>
+        </header>
+        <main id="tripsmain">
+            <div class="row" id="row1">
+               <div class="col-sm-4">
+               <h3>Upcoming</h3>
+               <img src="airplane.png" alt="airplane path" class="img-fluid">
+               <h4 id="info">12.23.18 | RDU to EWR</h4>
+               <div id="submit" class="form-group">
+                        <a name="submit" class="btn btn-info btn-md" id="edit" href="preferences.html">Edit Preferences</a>
+                </div>
+                </div>
+                </div>
+            <div class="row" id="row2">
+               <div class="col-sm-4">
+               <br>
+               <br>
+               <h3>Previous</h3>
+               <img src="airplane.png" alt="airplane path" class="img-fluid">
+               <h4 id="info">08.15.18 | JFK to CLT</h4>
+                </div>
+            </div>
+            <div class="row" id="row3">
+               <div class="col-sm-4">
+               <img src="airplane.png" alt="airplane path" class="img-fluid">
+               <h4 id="info">05.13.18 | RDU to LGA</h4>
+                </div>
+            </div>
+        </main>
     </div>
     
     

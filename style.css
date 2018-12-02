@@ -1,5 +1,6 @@
 * {
     font-family: Futura;
+    color:#343633;
 }
 
 /* Navigation */
@@ -29,6 +30,10 @@
 
 .navbar-nav {
    text-align: right;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
 }
 
 /* Home */
@@ -208,8 +213,8 @@ main {
 
 /* Sign in */
 .box {
-    width: 500px;
-    margin: 150px 0;
+    margin: 100px 0;
+    margin-top: 140px;
    
 }
 
@@ -351,4 +356,48 @@ input {
     margin-top: 20px;
 }
 
+#activenav {
+    font-weight: bold;
+} 
 
+/* TRIPS */
+
+
+#trip {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#row1, #row2, #row3 {
+    padding-left: 20px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#tripsmain {
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 60px;
+}
+
+#info {
+    text-align: center;
+} 
+
+#edit {
+    background-color: #FF9C8E;
+    border: none;
+}
+
+#edit:hover {
+    background-color: deepskyblue;
+}
+
+.box {
+    width: 120%;
+}
